@@ -1,0 +1,1040 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/cloudflare/node-cloudflare">cloudflare (v1.1.1)</a>
+</h1>
+<h4>CloudFlare API client</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare">module cloudflare</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.cloudflare">
+            function <span class="apidocSignatureSpan"></span>cloudflare
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.</span>DNSRecord</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.</span>IPRanges</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.</span>Zone</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.</span>dns</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.</span>ips</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.</span>purge</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.</span>zones</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare.DNSRecord">module cloudflare.DNSRecord</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.DNSRecord.is">
+            function <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>is
+            <span class="apidocSignatureSpan">(o)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>alias</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>controllers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>definition</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>fields</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>map</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>options</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>primary</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare.IPRanges">module cloudflare.IPRanges</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.IPRanges.is">
+            function <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>is
+            <span class="apidocSignatureSpan">(o)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>alias</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>controllers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>definition</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>fields</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>map</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>options</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>primary</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare.Zone">module cloudflare.Zone</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.Zone.is">
+            function <span class="apidocSignatureSpan">cloudflare.Zone.</span>is
+            <span class="apidocSignatureSpan">(o)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.Zone.</span>alias</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.Zone.</span>controllers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.Zone.</span>definition</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.Zone.</span>fields</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.Zone.</span>map</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.Zone.</span>options</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.Zone.</span>primary</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare.dns">module cloudflare.dns</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.dns.add">
+            function <span class="apidocSignatureSpan">cloudflare.dns.</span>add
+            <span class="apidocSignatureSpan">(rr, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.dns.browse">
+            function <span class="apidocSignatureSpan">cloudflare.dns.</span>browse
+            <span class="apidocSignatureSpan">(z, query, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.dns.delete">
+            function <span class="apidocSignatureSpan">cloudflare.dns.</span>delete
+            <span class="apidocSignatureSpan">(rr, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.dns.edit">
+            function <span class="apidocSignatureSpan">cloudflare.dns.</span>edit
+            <span class="apidocSignatureSpan">(rr, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.dns.read">
+            function <span class="apidocSignatureSpan">cloudflare.dns.</span>read
+            <span class="apidocSignatureSpan">(did, z, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.dns.</span>DNSRecord</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare.ips">module cloudflare.ips</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.ips.read">
+            function <span class="apidocSignatureSpan">cloudflare.ips.</span>read
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.ips.</span>IPRanges</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare.purge">module cloudflare.purge</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.purge.delete">
+            function <span class="apidocSignatureSpan">cloudflare.purge.</span>delete
+            <span class="apidocSignatureSpan">(z, query, options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cloudflare.zones">module cloudflare.zones</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.zones.activationCheck">
+            function <span class="apidocSignatureSpan">cloudflare.zones.</span>activationCheck
+            <span class="apidocSignatureSpan">(z)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.zones.add">
+            function <span class="apidocSignatureSpan">cloudflare.zones.</span>add
+            <span class="apidocSignatureSpan">(z, jumpstart, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.zones.browse">
+            function <span class="apidocSignatureSpan">cloudflare.zones.</span>browse
+            <span class="apidocSignatureSpan">(query, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.zones.delete">
+            function <span class="apidocSignatureSpan">cloudflare.zones.</span>delete
+            <span class="apidocSignatureSpan">(z, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.zones.edit">
+            function <span class="apidocSignatureSpan">cloudflare.zones.</span>edit
+            <span class="apidocSignatureSpan">(z, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cloudflare.zones.read">
+            function <span class="apidocSignatureSpan">cloudflare.zones.</span>read
+            <span class="apidocSignatureSpan">(zid, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cloudflare.zones.</span>Zone</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare" id="apidoc.module.cloudflare">module cloudflare</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.cloudflare" id="apidoc.element.cloudflare.cloudflare">
+        function <span class="apidocSignatureSpan"></span>cloudflare
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cloudflare = function (opts) {
+  opts = opts || {};
+
+  var spdyAgent = opts.h2 ? spdy.createAgent({
+    host: 'api.cloudflare.com',
+    port: 443,
+    protocol: ['h2']
+  }).once('error', function (err) {
+<span class="apidocCodeCommentSpan">    /* istanbul ignore next */
+</span>    this.emit('error', err);
+  }) : undefined;
+
+  this._got = function (endpoint, options) {
+    options = options || {};
+
+    var uri = url.resolve('https://api.cloudflare.com/client/v4/', endpoint);
+
+    return got(uri, {
+      json: true,
+      timeout: options.timeout || 1E4,
+      retries: options.retries,
+      method: options.method,
+      query: options.query,
+      body: options.body,
+      headers: {
+        'user-agent': 'cloudflare/' + pkg.version + ' node/' + process.versions.node,
+        'X-Auth-Key': opts.key,
+        'X-Auth-Email': opts.email,
+        'Content-Type': 'application/json'
+      },
+      agent: spdyAgent
+    });
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare.DNSRecord" id="apidoc.module.cloudflare.DNSRecord">module cloudflare.DNSRecord</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.DNSRecord.is" id="apidoc.element.cloudflare.DNSRecord.is">
+        function <span class="apidocSignatureSpan">cloudflare.DNSRecord.</span>is
+        <span class="apidocSignatureSpan">(o)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">is = function (o) {
+  if (o &amp;&amp; o.__verymeta &amp;&amp; o.__verymeta.model) {
+    return o.__verymeta.model === this;
+  }
+
+  return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+* properties: The properties to set on the new `Zone` object.
+* *Returns*: A new `Zone` object.
+
+Creates a new `Zone` object with the provided properties. The returned object
+can be used with the below methods that accept a `Zone` object.
+
+#### `Zone.<span class="apidocCodeKeywordSpan">is</span>(z): boolean`
+
+* z: The other object that may, or may not, be a `Zone` object.
+* *Returns*: `true` if the parameter is a `Zone` object, otherwise `false`.
+
+#### `browseZones([query, [options]]): Promise&lt;PaginatedResponse&lt;Zone[]&gt;&gt;`
+
+* query: An object to pass filter and sorting parameters to the API
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare.IPRanges" id="apidoc.module.cloudflare.IPRanges">module cloudflare.IPRanges</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.IPRanges.is" id="apidoc.element.cloudflare.IPRanges.is">
+        function <span class="apidocSignatureSpan">cloudflare.IPRanges.</span>is
+        <span class="apidocSignatureSpan">(o)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">is = function (o) {
+  if (o &amp;&amp; o.__verymeta &amp;&amp; o.__verymeta.model) {
+    return o.__verymeta.model === this;
+  }
+
+  return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+* properties: The properties to set on the new `Zone` object.
+* *Returns*: A new `Zone` object.
+
+Creates a new `Zone` object with the provided properties. The returned object
+can be used with the below methods that accept a `Zone` object.
+
+#### `Zone.<span class="apidocCodeKeywordSpan">is</span>(z): boolean`
+
+* z: The other object that may, or may not, be a `Zone` object.
+* *Returns*: `true` if the parameter is a `Zone` object, otherwise `false`.
+
+#### `browseZones([query, [options]]): Promise&lt;PaginatedResponse&lt;Zone[]&gt;&gt;`
+
+* query: An object to pass filter and sorting parameters to the API
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare.Zone" id="apidoc.module.cloudflare.Zone">module cloudflare.Zone</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.Zone.is" id="apidoc.element.cloudflare.Zone.is">
+        function <span class="apidocSignatureSpan">cloudflare.Zone.</span>is
+        <span class="apidocSignatureSpan">(o)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">is = function (o) {
+  if (o &amp;&amp; o.__verymeta &amp;&amp; o.__verymeta.model) {
+    return o.__verymeta.model === this;
+  }
+
+  return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+* properties: The properties to set on the new `Zone` object.
+* *Returns*: A new `Zone` object.
+
+Creates a new `Zone` object with the provided properties. The returned object
+can be used with the below methods that accept a `Zone` object.
+
+#### `Zone.<span class="apidocCodeKeywordSpan">is</span>(z): boolean`
+
+* z: The other object that may, or may not, be a `Zone` object.
+* *Returns*: `true` if the parameter is a `Zone` object, otherwise `false`.
+
+#### `browseZones([query, [options]]): Promise&lt;PaginatedResponse&lt;Zone[]&gt;&gt;`
+
+* query: An object to pass filter and sorting parameters to the API
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare.dns" id="apidoc.module.cloudflare.dns">module cloudflare.dns</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.dns.add" id="apidoc.element.cloudflare.dns.add">
+        function <span class="apidocSignatureSpan">cloudflare.dns.</span>add
+        <span class="apidocSignatureSpan">(rr, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function add(rr, options) {
+  options = options || {};
+
+  var zid = rr.zoneId;
+
+  var uri = join('zones', zid, 'dns_records');
+
+  var fields = ['type', 'name', 'content', 'ttl', 'proxied'];
+  if (rr.type === 'MX') {
+    fields.push('priority');
+  } else if (rr.type === 'SRV') {
+    fields = ['type', 'data'];
+  }
+  var body = pick(rr.toJSON({useAliases: true}), fields);
+
+  options.method = 'POST';
+  options.body = JSON.stringify(body);
+
+  return this._got(uri, options).then(function (response) {
+    return DNSRecord.create(response.body.result);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.dns.browse" id="apidoc.element.cloudflare.dns.browse">
+        function <span class="apidocSignatureSpan">cloudflare.dns.</span>browse
+        <span class="apidocSignatureSpan">(z, query, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function browse(z, query, options) {
+  options = options || {};
+  options.query = query;
+
+  var CF = this.constructor;
+  var zid = CF.Zone.is(z) ? z.id : z;
+  var uri = join('zones', zid, 'dns_records');
+
+  return this._got(uri, options).then(function (response) {
+    var records = response.body.result.map(function (rr) {
+      return DNSRecord.create(rr);
+    });
+
+    return this._paginateResponse(records, response.body.result_info);
+  }.bind(this));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.dns.delete" id="apidoc.element.cloudflare.dns.delete">
+        function <span class="apidocSignatureSpan">cloudflare.dns.</span>delete
+        <span class="apidocSignatureSpan">(rr, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function remove(rr, options) {
+  options = options || {};
+
+  var did = rr.id;
+  var zid = rr.zoneId;
+
+  var uri = join('zones', zid, 'dns_records', did);
+  options.method = 'DELETE';
+
+  return this._got(uri, options).then(function (response) {
+    return response.body.result;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.dns.edit" id="apidoc.element.cloudflare.dns.edit">
+        function <span class="apidocSignatureSpan">cloudflare.dns.</span>edit
+        <span class="apidocSignatureSpan">(rr, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function edit(rr, options) {
+  options = options || {};
+
+  var did = rr.id;
+  var zid = rr.zoneId;
+
+  var uri = join('zones', zid, 'dns_records', did);
+  options.method = 'PUT';
+  options.body = JSON.stringify(rr.toJSON({useAliases: true}));
+
+  return this._got(uri, options).then(function (response) {
+    return DNSRecord.create(response.body.result);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.dns.read" id="apidoc.element.cloudflare.dns.read">
+        function <span class="apidocSignatureSpan">cloudflare.dns.</span>read
+        <span class="apidocSignatureSpan">(did, z, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function read(did, z, options) {
+  var CF = this.constructor;
+  var zid;
+
+  if (!zid &amp;&amp; CF.Zone.is(z)) {
+    zid = z.id;
+  } else {
+    zid = z;
+  }
+
+  var uri = join('zones', zid, 'dns_records', did);
+
+  return this._got(uri, options).then(function (response) {
+    return DNSRecord.create(response.body.result);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare.ips" id="apidoc.module.cloudflare.ips">module cloudflare.ips</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.ips.read" id="apidoc.element.cloudflare.ips.read">
+        function <span class="apidocSignatureSpan">cloudflare.ips.</span>read
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function read(options) {
+  return this._got('ips', options).then(function (response) {
+    return IPRanges.create(response.body.result);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare.purge" id="apidoc.module.cloudflare.purge">module cloudflare.purge</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.purge.delete" id="apidoc.element.cloudflare.purge.delete">
+        function <span class="apidocSignatureSpan">cloudflare.purge.</span>delete
+        <span class="apidocSignatureSpan">(z, query, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function remove(z, query, options) {
+  var CF = this.constructor;
+
+  var zid = CF.Zone.is(z) ? z.id : z;
+  var uri = join('zones', zid, 'purge_cache');
+
+  options = options || {};
+  options.method = 'DELETE';
+  options.body = JSON.stringify(query);
+
+  return this._got(uri, options).then(function (response) {
+    return response.body.success;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cloudflare.zones" id="apidoc.module.cloudflare.zones">module cloudflare.zones</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.zones.activationCheck" id="apidoc.element.cloudflare.zones.activationCheck">
+        function <span class="apidocSignatureSpan">cloudflare.zones.</span>activationCheck
+        <span class="apidocSignatureSpan">(z)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function activationCheck(z) {
+  var zid = Zone.is(z) ? z.id : z;
+  var uri = join('zones', zid, 'activation_check');
+  var options = {
+    method: 'PUT'
+  };
+
+  return this._got(uri, options).then(function (response) {
+    return response.body.result;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.zones.add" id="apidoc.element.cloudflare.zones.add">
+        function <span class="apidocSignatureSpan">cloudflare.zones.</span>add
+        <span class="apidocSignatureSpan">(z, jumpstart, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function add(z, jumpstart, options) {
+  options = options || {};
+
+  var body = pick(z.toJSON({useAliases: true}), ['name']);
+
+  if (jumpstart === false) {
+    body.jump_start = false; // eslint-disable-line camelcase
+  }
+
+  options.method = 'POST';
+  options.body = JSON.stringify(body);
+
+  return this._got('zones', options).then(function (response) {
+    return Zone.create(response.body.result);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.zones.browse" id="apidoc.element.cloudflare.zones.browse">
+        function <span class="apidocSignatureSpan">cloudflare.zones.</span>browse
+        <span class="apidocSignatureSpan">(query, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function browse(query, options) {
+  options = options || {};
+  options.query = query;
+
+  return this._got('zones', options).then(function (response) {
+    var zones = response.body.result.map(function (z) {
+      return Zone.create(z);
+    });
+
+    return this._paginateResponse(zones, response.body.result_info);
+  }.bind(this));
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.zones.delete" id="apidoc.element.cloudflare.zones.delete">
+        function <span class="apidocSignatureSpan">cloudflare.zones.</span>delete
+        <span class="apidocSignatureSpan">(z, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function remove(z, options) {
+  var zid = Zone.is(z) ? z.id : z;
+  var uri = join('zones', zid);
+
+  options = options || {};
+  options.method = 'DELETE';
+
+  return this._got(uri, options).then(function (response) {
+    return response.body.result;
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.zones.edit" id="apidoc.element.cloudflare.zones.edit">
+        function <span class="apidocSignatureSpan">cloudflare.zones.</span>edit
+        <span class="apidocSignatureSpan">(z, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function edit(z, options) {
+  options = options || {};
+
+  var uri = join('zones', z.id);
+  var changes = z.getChanges();
+
+  var patched = Object.keys(changes).map(function (key) {
+    var change = changes[key];
+    change.key = Zone.alias[key];
+    return change;
+  }).filter(function (change) {
+    return change.changed;
+  }).map(function (change) {
+    var body = {};
+    body[change.key] = change.now;
+    return body;
+  });
+
+  if (patched.length === 0) {
+    return Promise.resolve(z.makeClone());
+  }
+
+  options.method = 'PATCH';
+
+  function sendPatched() {
+    var patch = patched.pop();
+
+    options.body = JSON.stringify(patch);
+
+    return this._got(uri, options).then(function (response) {
+      if (patched.length &gt; 0) {
+        return sendPatched.call(this);
+      }
+
+      return Zone.create(response.body.result);
+    }.bind(this));
+  }
+
+  return sendPatched.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.cloudflare.zones.read" id="apidoc.element.cloudflare.zones.read">
+        function <span class="apidocSignatureSpan">cloudflare.zones.</span>read
+        <span class="apidocSignatureSpan">(zid, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function read(zid, options) {
+  var uri = join('zones', zid);
+
+  return this._got(uri, options).then(function (response) {
+    return Zone.create(response.body.result);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
